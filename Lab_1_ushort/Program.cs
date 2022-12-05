@@ -1,0 +1,13 @@
+﻿ushort a = 8;
+ushort b = 2;
+Console.WriteLine("Unary operations with ushort");
+Console.WriteLine(++a);
+Console.WriteLine(--b);
+Console.WriteLine("Binary operations with ushort");
+Console.WriteLine((ushort)(a + b));
+Console.WriteLine((ushort)(a - b));
+Console.WriteLine((ushort)(a * b));
+Console.WriteLine((ushort)(a / b));
+Console.WriteLine((ushort)(a % b));
+Console.WriteLine("Ternary operation with ushort");
+Console.WriteLine((ushort)(a > b ? a + b : a - b));

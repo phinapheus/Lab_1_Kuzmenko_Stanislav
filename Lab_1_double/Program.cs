@@ -1,0 +1,13 @@
+﻿double a = 10.2;
+double b = 5.7;
+Console.WriteLine("Unary operations with double");
+Console.WriteLine(++a);
+Console.WriteLine(--b);
+Console.WriteLine("Binary operations with double");
+Console.WriteLine("result = " +(a + b));
+Console.WriteLine("result = " +(a - b));
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
+Console.WriteLine(a % b);
+Console.WriteLine("Ternary operation with double");
+Console.WriteLine(a > b ? a + b : a - b);

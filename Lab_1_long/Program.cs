@@ -1,0 +1,13 @@
+﻿long a = 8;
+long b = 2;
+Console.WriteLine("Unary operations with long");
+Console.WriteLine(++a);
+Console.WriteLine(--b);
+Console.WriteLine("Binary operations with long");
+Console.WriteLine(a + b);
+Console.WriteLine(a - b);
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
+Console.WriteLine(a % b);
+Console.WriteLine("Ternary operation with long");
+Console.WriteLine(a > b ? a + b : a - b);

@@ -1,0 +1,13 @@
+﻿ulong a = 8;
+ulong b = 2;
+Console.WriteLine("Unary operations with ulong");
+Console.WriteLine(++a);
+Console.WriteLine(--b);
+Console.WriteLine("Binary operations with ulong");
+Console.WriteLine(a + b);
+Console.WriteLine(a - b);
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
+Console.WriteLine(a % b);
+Console.WriteLine("Ternary operation with ulong");
+Console.WriteLine(a > b ? a + b : a - b);

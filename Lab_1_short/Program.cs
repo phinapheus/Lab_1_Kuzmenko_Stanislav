@@ -1,0 +1,13 @@
+﻿short a = -2;
+short b = 5;
+Console.WriteLine("Unary operations with short");
+Console.WriteLine(++a);
+Console.WriteLine(--b);
+Console.WriteLine("Binary operations with short");
+Console.WriteLine((short)(a + b));
+Console.WriteLine((short)(a - b));
+Console.WriteLine((short)(a * b));
+Console.WriteLine((short)(a / b));
+Console.WriteLine((short)(a % b));
+Console.WriteLine("Ternary operation with short");
+Console.WriteLine((short)(a > b ? a + b : a - b));

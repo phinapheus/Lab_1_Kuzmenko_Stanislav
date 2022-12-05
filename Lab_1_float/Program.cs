@@ -1,0 +1,13 @@
+﻿float a = 8.5f;
+float b = 3.7f;
+Console.WriteLine("Unary operations with float");
+Console.WriteLine(++a);
+Console.WriteLine(--b);
+Console.WriteLine("Binary operations with float");
+Console.WriteLine("result = " + (a + b));
+Console.WriteLine("result = " + (a - b));
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
+Console.WriteLine(a % b);
+Console.WriteLine("Ternary operation with float");
+Console.WriteLine(a > b ? a + b : a - b);
