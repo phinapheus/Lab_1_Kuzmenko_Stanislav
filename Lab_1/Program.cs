@@ -10,4 +10,4 @@ Console.WriteLine(a != b ? a & b : a | b);
 if (a = b)
     Console.WriteLine(b);
 else
-    Console.WriteLine(a);
+    Console.WriteLine(a);//
